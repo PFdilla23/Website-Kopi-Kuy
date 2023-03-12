@@ -1,0 +1,200 @@
+@font-face {
+   font-family: 'Poppins';
+   src: url(../fonts/poppins.woff2);
+}
+
+body {
+   font-family: 'Poppins';
+   width: 100%;
+}
+
+h2 {
+   font-size: 40px;
+}
+
+nav {
+   background-color: green;
+
+}
+
+nav img {
+   margin-left: 30px;
+   margin-bottom: 6px;
+   width: 10%;
+}
+
+nav ul {
+   display: inline-block;
+   width: 70%;
+   text-align: right;
+
+}
+
+nav ul li,
+footer ul li {
+   display: inline-block;
+   color: #fff;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+nav button {
+   display: inline-block;
+   margin-left: 20px;
+   width: 80px;
+   background-color: darkolivegreen;
+   border-color: darkolivegreen;
+   color: #fff;
+   display: inline-block;
+}
+
+nav div.baris ul.navigasi li a {
+   color: #fff;
+}
+
+
+/* TULIS KODEMU DI BAWAH SINI */
+
+header div.kiri {
+   display: inline-block;
+   width: 49%;
+   padding-left: 100px;
+   padding-right: 50px;
+   margin-top: 100px;
+
+}
+
+header div.kanan {
+   display: inline-block;
+   width: 50%;
+   padding-right: 100;
+
+
+}
+
+header div.kiri img {
+   width: 30px;
+
+}
+
+header div.kiri p.paragraf-header {
+   padding-right: 180px;
+}
+
+header div.kiri div.bungkus-kiri-dalam p {
+   margin-bottom: 40px;
+}
+
+section.best-seller {
+   text-align: center;
+   margin-top: 60px;
+
+}
+
+section.best-seller div.produk {
+   display: inline-block;
+   width: 24%;
+}
+
+section.best-seller div.produk img {
+   margin-bottom: 30px;
+}
+
+section.best-seller p {
+   margin-bottom: 50px;
+   padding-left: 10px;
+}
+
+section.about-us {
+   text-align: center;
+   margin-top: 60px;
+}
+
+section.about-us div.ok {
+   width: 700px;
+   padding-left: 50px;
+   margin-left: 330px;
+}
+
+section.our-team {
+   text-align: center;
+   margin-top: 60px;
+}
+
+section.our-team div.tim {
+   display: inline-block;
+   width: 24%;
+}
+
+section.our-team div.tim img {
+   margin-bottom: 30px;
+}
+
+section.our-team p {
+   margin-bottom: 50px;
+}
+
+
+
+
+section.review {
+   text-align: center;
+   margin-top: 60px;
+}
+
+section.review div.testimoni {
+   display: inline-block;
+   width: 24%;
+}
+
+section.review div.testimoni img {
+   margin-bottom: 30px;
+}
+
+section.review p {
+   margin-bottom: 50px;
+}
+
+
+
+section.contact-us {
+   text-align: center;
+   margin-top: 60px;
+}
+
+section.contact-us div.kolom {
+   display: inline-block;
+   width: 10%;
+}
+
+section.contact-us div.kolom img {
+   margin-bottom: 30px;
+   width: 50px;
+}
+
+section.contact-us p {
+   margin-bottom: 30px;
+   text-size-adjust: 70px;
+
+}
+
+footer {
+   background-color: green;
+
+}
+
+footer div.baris ul.navigasi li a {
+   text-align: left;
+   padding-top: 10px;
+   color: #fff;
+   margin-top: 10px;
+
+
+}
+
+footer div.baris p {
+   text-align: right;
+   padding-bottom: 10px;
+   padding-right: 10px;
+   color: #fff;
+}
